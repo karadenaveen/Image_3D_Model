@@ -11,6 +11,13 @@ This project demonstrates a simple AI-powered Python prototype that accepts eith
 - Supports 3D visualization using (pyrender) and (trimesh)
 - Python-based, open-source, and well-documented
 
+# Thought Process
+
+- Chose modular structure to keep text_to_3d, image_to_3d, and visualize clean and reusabl
+- Used rembg and onnxruntime for background removal in images
+- Chose trimesh and pyrender for 3D mesh handling and rendering
+- Focused on minimal, reproducible prototype using open-source tooling
+
 Demo Example
 
 # To Run In Terminal 
@@ -19,3 +26,12 @@ python main.py --text "a futuristic car" --view
 
 # Run with an image input
 python main.py --image inputs/car.jpg --view
+
+
+# We Seen This All Steps : 
+
+1) main.py – Entry Point
+2) generate.py – Core Utility
+3) preprocess_image()
+4) visualize.py – 3D Mesh Viewer
+5) Output 
