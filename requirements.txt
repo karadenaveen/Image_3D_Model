@@ -1,0 +1,10 @@
+numpy
+pillow
+matplotlib
+pyrender
+trimesh
+torch
+transformers
+diffusers
+open3d
+rembg  # Optional for photo background removal
