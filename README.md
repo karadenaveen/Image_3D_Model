@@ -2,6 +2,15 @@
 
 This project demonstrates a simple AI-powered Python prototype that accepts either a **photo** (e.g., of a car) or a **text prompt** (e.g., "a small toy car") and generates a basic **3D model** in `.obj` or `.stl` format. The result can be visualized in 3D or used for 3D printing.
 
+# Python Libraries Used
+- trimesh : Create shapes: box, sphere, cylinder Load and export 3D model files: .obj, .stl
+- pyrender : Creates an interactive 3D viewer window
+- rembg : Removes background from an image 
+- Pillow (PIL) : Open and handle images Resizing, cropping, or converting formats
+- argparse
+- os, sys, uuid, re
+- numpy
+
  # Features
 
 - Accepts text prompt or image as input
